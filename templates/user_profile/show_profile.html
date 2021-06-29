@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<br><br>
+
+<br><br>
+<div class="container my-3">
+    <h5> 사용자 프로필 </h5>
+<div class="card mb-3">
+    <div class="row no-gutters">
+        <div class="col-md-2">
+            {% if page_user.profile_pic %}
+            <img src="{{ profile.profile_pic.url }}" class="card-img-top">
+            {% else %}
+            <div>No_image</div>
+            {% endif %}
+        </div>
+
+        <div class="col-md-10">
+            <div class="card-body">
+                <h5 class="card-title">
+                    {{ page_user }}
+                </h5>
+        <p class="card-text">
+            {{ page_user.bio }}
+        </p>
+
+         <p class="card-text">
+             질문 횟수: {{ num_questions }}
+        </p>
+
+         <p class="card-text">
+            답변 횟수: {{ num_answers }}
+        </p>
+
+        <p class="card-text">
+            댓글 횟수: {{ num_comments }}
+        </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    <a class="btn btn-primary" href="{% url 'user_profile:edit_profile' user.profile.id %}">내프로필변경</a>
+
+</div>
+
+
+
+{% endblock %}

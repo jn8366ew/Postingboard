@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<div class="col-4 input-group">
+    <form method="get" action="{% url 'account:result' %}">
+        <input type="text" name="email" class="form-control email" value="{{ email|default_if_none:'' }}">
+        <input type="submit" value="Save" />
+    </form>
+</div>
+
+{% endblock %}
