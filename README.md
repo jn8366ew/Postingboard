@@ -13,4 +13,4 @@
 
 
 ### Current status
-Under construction for deployment
+Under construction for OAuth2 functionality 
