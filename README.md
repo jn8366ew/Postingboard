@@ -1,16 +1,16 @@
 # Posting board 
 
-# Description 
+## Description 
 * A simple posting board with CRUD 
 
-# Requirements 
+## Requirements 
 * Django (3.1.7)
 * Postgresql (11) 
 </br></br>
 
-# Site Demo
+## Site Demo
 
 
 
-### Current status
+## Current status
 Under construction for OAuth2 functionality 
