@@ -1,11 +1,16 @@
-# Postingboard
+# Posting board 
 
-### Description: 
-A small project for django application enable user registration, 
-authentication, and posting with CRUD. 
+# Description 
+* A simple posting board with CRUD 
 
-### Status: 
-Under construction for OAuth2  
+# Requirements 
+* Django (3.1.7)
+* Postgresql (11) 
+</br></br>
 
-### Prerequisite: 
-they are in requirements.txt
+# Site Demo
+
+
+
+### Current status
+Under construction for deployment
