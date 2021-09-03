@@ -1,7 +1,8 @@
 # Posting board 
 
 ## Description 
-* A simple posting board with CRUD 
+* A web application of posting board
+* User restration, CRUD funtion associate with posting and user profile      
 
 ## Requirements 
 * Django (3.1.7)
