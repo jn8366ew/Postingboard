@@ -4,7 +4,8 @@
 * A web application of posting board
 * User restration, CRUD funtion associate with posting and user profile      
 
-## Requirements 
+## Main requirements 
+* Python (3.8.1)
 * Django (3.1.7)
 * Postgresql (11) 
 </br></br>
