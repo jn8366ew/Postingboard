@@ -44,5 +44,4 @@
 ![Profile_update](https://user-images.githubusercontent.com/80245390/132005767-e574ccd2-e630-4502-8f7f-7eaf7631324e.JPG)
 </br>
 
-## Current status
-Under construction for OAuth2 functionality 
+
