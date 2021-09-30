@@ -2,7 +2,7 @@
 
 ## Description 
 * Posting board implemented by Django 
-* User restration, CRUD funtion associate with posting and user profile      
+* Implemented on May/10/2021    
 * Referred Pybo website and [점프 투 장고](https://wikidocs.net/book/4223)
 
 ## Main requirements 
