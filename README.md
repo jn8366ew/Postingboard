@@ -1,7 +1,7 @@
 # Posting board 
 
 ## Description 
-* A web application of posting board 
+* Posting board implemented by Django 
 * User restration, CRUD funtion associate with posting and user profile      
 * Referred Pybo website and [점프 투 장고](https://wikidocs.net/book/4223)
 
