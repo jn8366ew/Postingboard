@@ -1,8 +1,9 @@
 # Posting board 
 
 ## Description 
-* A web application of posting board
+* A web application of posting board 
 * User restration, CRUD funtion associate with posting and user profile      
+* Referred Pybo website and [점프 투 장고](https://wikidocs.net/book/4223)
 
 ## Main requirements 
 * Python (3.8.1)
